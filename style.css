@@ -199,9 +199,9 @@ footer {
 }
  
 /* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
-@media screen and (max-width:1024px) {  
+/* @media screen and (max-width:1024px) {  
    
-}
+} */
 
 @media screen and (max-width:768px) {  
     header {
@@ -245,14 +245,11 @@ footer {
     }
     .sidebar-contents {
         padding: 50px 20px;
-        /* margin: 0 auto; */
-        /* text-align: center; */
     }
 
    .instagram-box {
        width: 49%;
        padding-top: 48%;
-       /* height: 180px; */
        float: none;
        display: inline-block;
    }
